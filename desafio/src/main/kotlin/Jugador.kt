@@ -3,9 +3,9 @@ class Jugador {
     var vida:Int = 0
     var fuerza:Int = 0
 
-    constructor(){
-        this.sector = sector
-        this.vida = vida
-        this.sector = sector
+    constructor(s:Int, v:Int, f:Int){
+        this.sector = s
+        this.vida = v
+        this.fuerza = f
     }
 }
