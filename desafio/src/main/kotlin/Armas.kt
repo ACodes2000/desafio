@@ -1,7 +1,9 @@
-class Armas :Items{
-    var fuerza:Int = 10
+import kotlin.random.Random
 
-    constructor(descripcion:String, fuerza:Int) :super(descripcion){
+class Armas :Items{
+    var fuerza:Int = Random.nextInt(50, 101)
+
+    constructor(descripcion:String) :super(descripcion){
         this.descripcion = descripcion
         this.fuerza = fuerza
     }

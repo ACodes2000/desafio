@@ -5,5 +5,6 @@ fun main(){
     Factoria.crearJugadoresSector4()
     Factoria.crearJugadoresSector5()
 
-    Factoria.verLista()
+    var capitolio:Capitolio = Capitolio()
+    capitolio.llenarReserva()
 }

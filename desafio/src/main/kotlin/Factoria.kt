@@ -36,10 +36,4 @@ object Factoria {
             jugadores.add(j)
         }
     }
-
-    fun verLista(){
-        for(i in 0..jugadores.size-1){
-            println(jugadores[i].sector)
-        }
-    }
 }
